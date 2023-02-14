@@ -15,7 +15,7 @@ const responseSchema = new mongoose.Schema(
   {
     result: [processSchema],
     averages: {
-      completiontime: Number,
+      completionTime: Number,
       waitingTime: Number,
       turnAroundTime: Number,
       responseTime: Number
